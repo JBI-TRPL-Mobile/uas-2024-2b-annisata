@@ -29,3 +29,7 @@ Program ini menampilkan layar pesan dengan daftar pesan menggunakan ListView.bui
 - Profile
 ![6](image/6.png)
 Program ini menampilkan layar profil dengan avatar, beberapa pengaturan dalam card, dan opsi seperti "Video preference", "Account Settings" dan "About Lernout". Terdapat tombol "Log Out" di bagian bawah.
+
+- Pop Up Log Out
+![7](image/7.png)
+Program ini menampilkan layar profil dengan tombol "Log Out". Ketika tombol ditekan, dialog konfirmasi muncul, menanyakan apakah pengguna yakin untuk logout. Jika pengguna memilih "Yes", logika logout dapat ditambahkan di bagian tersebut, dan pesan "User logged out" akan dicetak di konsol.
