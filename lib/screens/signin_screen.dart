@@ -15,7 +15,7 @@ class _SignInScreenState extends State<SignInScreen> {
 
     // Lakukan validasi dan proses login di sini
     if (email.isNotEmpty && password.isNotEmpty) {
-      Navigator.pushNamed(context, '/home');
+      Navigator.pushNamed(context, '/dashboard');
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Please enter email and password')),
@@ -81,11 +81,12 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ],
               ),
-              
+
             SizedBox(height: 16),
             TextButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/signup');
+                Navigator.pushNamed(context,
+                '/signup');
               },
               child: Text('Don’t have an account? Sign Up'),
             ),
