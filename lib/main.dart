@@ -4,6 +4,7 @@ import 'package:template_project/screens/signin_screen.dart';
 import 'package:template_project/screens/signup_screen.dart';
 import 'package:template_project/screens/dashboard_screen.dart';
 import 'package:template_project/screens/message_screen.dart';
+import 'package:template_project/screens/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/signup': (context) => SignUpScreen(),
         '/signin': (context) => SignInScreen(),
         '/message': (context) => MessageScreen(),
+        '/profile': (context) => ProfileScreen(),
       },
     );
   }
