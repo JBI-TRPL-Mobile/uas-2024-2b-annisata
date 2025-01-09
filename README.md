@@ -13,3 +13,6 @@ Kelas   : 2B TRPL
 
 - Dashboard 
 ![4](image/4.png)
+
+- Message
+![5](image/5.png)
